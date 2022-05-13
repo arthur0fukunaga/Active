@@ -1,0 +1,44 @@
+body{
+    background: #000000;
+    font-family:monospace
+}
+.texto{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: rgb(255, 255, 255);
+}
+.imagens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+.img1{
+    margin-bottom: 500px;
+}
+#img1{
+    position: absolute;
+    background-image: url('../imagens/Honda2.png');
+    width: 600px;
+    height: 433px;
+}
+#img1:hover{
+    background-image: url('../imagens/Honda1.gif');
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background-size: 470px 470px;
+    width: 450px;
+    height: 470px;
+} 
+#img2{
+    background-image: url('../imagens/ChunLi2.png');
+    width: 290px;
+    height: 440px;
+    margin-right: 130px;
+}
+#img2:hover{
+    background-image: url('../imagens/ChunLi1.gif');
+    width: 488px;
+    height: 350px;
+    margin-right: 130px;
+}
